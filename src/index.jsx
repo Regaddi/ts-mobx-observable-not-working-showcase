@@ -4,8 +4,8 @@ import { observer } from "mobx-react";
 import { observable } from "mobx";
 
 @observer
-class App extends React.Component<any> {
-  @observable count: number = 0;
+class App extends React.Component {
+  @observable count = 0;
   render() {
     return (
       <div>
